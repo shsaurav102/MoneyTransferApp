@@ -1,0 +1,1 @@
+SELECT amount from transfer t JOIN account a ON t.account_from = a.account_id JOIN tenmo_user tu ON a.user_id = tu.user_id WHERE username = 'x';
